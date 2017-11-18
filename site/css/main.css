@@ -115,8 +115,7 @@ a .highlight {
 .content .note {
     border: 1px solid #334455;
     display: block;
-    font-size: 0.75em;
-    font-style: italic;
+    font-size: 1em;
     padding: 1em;
     width: 82%;
 }
