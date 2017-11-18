@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="{{description}}">
+    <meta name="author" content="Aleksejs Ivanovs">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+    <script src="/js/index.js"></script>
+</head>
+  <body>
+    <div class="wrapper">
+      <div class="header">
+        <a href="/">Aleksejs Ivanovs
+        </a>
+      </div>
+      <div class="center">
+        <div class="post">
+          <h2 class="post-header">{{title}}
+          </h2>
+          <div class="author">Aleksejs {{date}}
+          </div>
+          <div class="content">{{{description}}}{{{content}}}</div>
+          <div id="disqus_thread"></div>
+        </div>
+      </div>
+      <div class="footer"></div>
+    </div>
+    <script type="text/javascript">
+    var disqus_shortname = 'aleksejs';
+
+    var disqus_identifier = 'aleksejs_' + "{{id}}";
+    var disqus_title = "{{title}}";
+    var disqus_url = document.location.href;
+
+    (function() {
+        var dsq = document.createElement('script');
+        dsq.type = 'text/javascript';
+        dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+    </script>
+</body>
+</html>

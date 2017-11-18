@@ -1,0 +1,128 @@
+* {
+    color: #123;
+    font-size: 17px;
+    font-family: 'Source Sans Pro', sans-serif !important;
+    font-weight: 400;
+}
+body {
+    height: 100%;
+}
+sup {
+    vertical-align: super;
+    font-size: 0.6em;
+}
+a {
+    text-decoration: none;
+}
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+}
+.header, .center {
+    text-align: left;
+    margin: 0 0 0 7em;
+    padding: 0 2em;
+    border: 1px solid #bbb;
+    border-bottom: none;
+    width: 60em;
+}
+.header {
+    height: 5em;
+    padding-top: 1.5em;
+}
+.header a {
+    color: #123;
+    font-size:4em;
+}
+.center {
+    padding: 2em;
+    flex: 1;
+    display: flex;
+    flex-basis: auto;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+}
+div.post {
+    margin-top: 1em;
+}
+h2.post-header {
+    margin-bottom: 0.5em;
+}
+
+.post-header {
+    font-size: 3em;
+    color: #3D3F39;
+    text-decoration: none;
+    font-weight: 400;
+}
+.post-preview {
+    font-size: 1.5em;
+    text-align: justify;
+}
+.readmore {
+    font-style: italic;
+    font-size: 0.75em;
+    text-decoration: underline;
+}
+.content {
+    font-size: 1.2em;
+    line-height: 1.4em;
+}
+.author {
+    font-size: 0.8em;
+    font-style: italic;
+    margin: 1em 0;
+}
+.content p a {
+    color: #a17b8a;
+}
+.content p a:hover {
+    color: #c79baa;
+}
+.content p {
+    text-align: justify;
+    color: #555;
+    font-size: 0.875em;
+    font-weight: 400;
+}
+.content pre, span.code {
+    background: #efefef none repeat scroll 0 0;
+    color: #345;
+    font-family: monospace !important;
+}
+.content pre {
+    border: 1px inset #334455;
+    margin: 0.8em 0;
+    padding: 0.3em 0.6em;
+}
+span.code {
+    padding: 0 0.2em;
+    white-space: nowrap;
+}
+span.highlight {
+    font-weight: 600;
+    color: #234;
+}
+a .highlight {
+    text-decoration: underline;
+}
+.content .note {
+    border: 1px solid #334455;
+    display: block;
+    font-size: 0.75em;
+    font-style: italic;
+    padding: 1em;
+    width: 82%;
+}
+.content .note.math {
+    font-family: serif !important;
+}
+.content ul {
+    list-style: square inside;
+}
