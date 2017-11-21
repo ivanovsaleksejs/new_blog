@@ -97,7 +97,7 @@ h2.post-header {
     font-family: monospace !important;
 }
 .content pre {
-    border: 1px inset #334455;
+    border: 1px solid #334455;
     margin: 0.8em 0;
     padding: 0.3em 0.6em;
 }
