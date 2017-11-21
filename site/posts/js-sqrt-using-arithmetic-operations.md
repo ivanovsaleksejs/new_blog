@@ -4,6 +4,7 @@ title: "JS sqrt function using arithmetic operators"
 author: Aleksejs Ivanovs
 date: 17.11.2017
 tags: [functional, math]
+desc_no_tags: "Here is some nice function I've made that calculates a square root of a number: k=>(f=>f(f))(f=>x=>x==(y=(x+k/x)/2)?x:f(f)(y))(1)"
 description: <p>Here is some nice function I've made that calculates a square root of a number:</p><pre>k=>(f=>f(f))(f=>x=>x==(y=(x+k/x)/2)?x:f(f)(y))(1)</pre>
 ---
 
